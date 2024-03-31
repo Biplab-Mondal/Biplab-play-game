@@ -1,0 +1,19 @@
+.fruit-list {
+  margin-bottom: 8px;
+}
+.thumbnail-btn {
+  background-color: transparent;
+  border: none;
+}
+.thumbnail-image {
+  height: 90px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-image {
+    height: 100px;
+    width: 120px;
+  }
+}

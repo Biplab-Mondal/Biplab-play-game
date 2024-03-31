@@ -1,0 +1,29 @@
+.tab-list {
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .tab-list {
+    margin-right: 15px;
+  }
+}
+.tab-button {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 17px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .tab-button {
+    font-size: 20px;
+  }
+}
+.active-btn {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
+.un-active-btn {
+  color: #ffffff;
+}
